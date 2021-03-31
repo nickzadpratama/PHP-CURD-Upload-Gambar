@@ -9,14 +9,14 @@ if( isset($_POST["submit"]) ) {
 		echo "
 		<script>
 			alert('data berhasil ditambah!')
-			document.location = 'indeks.php';
+			document.location = 'index.php';
 		</script>
 	";
 	} else {
 		echo "
 		<script>
 			alert('data gagal ditambah!')
-			document.location = 'indeks.php';
+			document.location = 'index.php';
 		</script>
 	";
 	}
